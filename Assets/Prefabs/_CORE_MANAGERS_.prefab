@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3252752350148720054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3252752350148720057}
+  - component: {fileID: 1086371337}
+  - component: {fileID: 1086371338}
+  - component: {fileID: 3252752349062415283}
+  - component: {fileID: 3252752349062415284}
+  m_Layer: 0
+  m_Name: _CORE_MANAGERS_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3252752350148720057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252752350148720054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1086371337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252752350148720054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4130d41efb8b69d45bce6f3481982b19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dontDestroyOnLoad: 1
+--- !u!114 &1086371338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252752350148720054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ebc462c9d1d5f84cb7241e661ec5aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dontDestroyOnLoad: 1
+  m_RecycleTime: 20
+--- !u!114 &3252752349062415283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252752350148720054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aabeb7c9e1bc2e2449f227e6cbccc535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dontDestroyOnLoad: 1
+  mixer: {fileID: 24100000, guid: 9cd856ed49abb3a448e155d3dd15beb8, type: 2}
+  bgmMixer: {fileID: 3377873284542938663, guid: 9cd856ed49abb3a448e155d3dd15beb8, type: 2}
+  seMixer: {fileID: 6769865244012525080, guid: 9cd856ed49abb3a448e155d3dd15beb8, type: 2}
+  clickSound: {fileID: 8300000, guid: 20e569eb6e918d44581c2dca8f133dab, type: 3}
+  SEList:
+  - name: button
+    audioClip: {fileID: 8300000, guid: 20e569eb6e918d44581c2dca8f133dab, type: 3}
+  - name: cow
+    audioClip: {fileID: 8300000, guid: c70be727ceb5741469f96a6844adde95, type: 3}
+  - name: craft
+    audioClip: {fileID: 8300000, guid: 33ebece85aa987644b8dcb72b1a4dded, type: 3}
+  - name: explode
+    audioClip: {fileID: 8300000, guid: cff965afde14a484099681ef939fac34, type: 3}
+  - name: foot00
+    audioClip: {fileID: 8300000, guid: 8522bcc1afd7d8344b54bedce606c0a0, type: 3}
+  - name: foot01
+    audioClip: {fileID: 8300000, guid: 99ae723f90bd8bd4989806dd9b891c7c, type: 3}
+  - name: foot2
+    audioClip: {fileID: 8300000, guid: 99ae723f90bd8bd4989806dd9b891c7c, type: 3}
+  - name: item00
+    audioClip: {fileID: 8300000, guid: ee21997c6515b07489eb2a2dceee1ade, type: 3}
+  - name: item01
+    audioClip: {fileID: 8300000, guid: 7c7b8eebe2325d24e9f6a0484b5d8865, type: 3}
+  - name: item02
+    audioClip: {fileID: 8300000, guid: 1c909c0c4b57695409edc487d6eb8234, type: 3}
+  - name: magic
+    audioClip: {fileID: 8300000, guid: 66ce721ebc04eec4fbac3925da183442, type: 3}
+  - name: rise
+    audioClip: {fileID: 8300000, guid: b5f357135cbc23942889d1ef946dd6af, type: 3}
+  - name: rock
+    audioClip: {fileID: 8300000, guid: 76cc29f45e188b6439399ad53b023e5d, type: 3}
+  - name: wood
+    audioClip: {fileID: 8300000, guid: 2f4a848cd4002db439f76d4e137773db, type: 3}
+  - name: iron
+    audioClip: {fileID: 8300000, guid: cf2d21fe2865f3048a96d926002f909c, type: 3}
+  BGMList:
+  - name: Menu
+    audioClip: {fileID: 8300000, guid: 03398c30309fa304fa60d68c2678c3a2, type: 3}
+  - name: Game
+    audioClip: {fileID: 8300000, guid: ddd4a40c6a5eae44783eb4a3f3643971, type: 3}
+--- !u!114 &3252752349062415284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252752350148720054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9fe53948e2f4547bba5b7d88e45036, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dontDestroyOnLoad: 1
+  m_Item2TileInfs:
+  - Item: {fileID: 0}
+    Tile: {fileID: 0}

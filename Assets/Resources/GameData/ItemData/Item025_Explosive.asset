@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e09ef04cadc85a429015fcf544302e2, type: 3}
+  m_Name: Item025_Explosive
+  m_EditorClassIdentifier: 
+  id: 25
+  name: "\u70B8\u5F39"
+  description: 
+  maxStack: 99
+  icon: {fileID: 21300000, guid: addae0e86d9d82b469469352911b2ed2, type: 3}
+  craftRecipe:
+  - item: {fileID: 11400000, guid: c3a5fe7ccd21e424f82c5e7715bb0ac0, type: 2}
+    cost: 1
+  - item: {fileID: 11400000, guid: 80500df64d45bdc44bf928ef7cc799cc, type: 2}
+    cost: 2
+  - item: {fileID: 11400000, guid: b31e3997fd03d424bbdf9752b772d97c, type: 2}
+    cost: 1
+  craftCount: 1
+  craftSpeed: 1
+  soundID: 3

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e09ef04cadc85a429015fcf544302e2, type: 3}
+  m_Name: Item016_Tree
+  m_EditorClassIdentifier: 
+  id: 16
+  name: "\u6811"
+  description: "\u780D\u4F10\u540E\u83B7\u53D6\u6728\u5934"
+  maxStack: 99
+  icon: {fileID: 21300000, guid: 03599c7cc0f0a4b42806ed53484eafb0, type: 3}
+  craftRecipe: []
+  craftCount: 1
+  craftSpeed: 1

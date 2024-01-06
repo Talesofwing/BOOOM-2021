@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e09ef04cadc85a429015fcf544302e2, type: 3}
+  m_Name: Item012_Lv3 Pickaxes
+  m_EditorClassIdentifier: 
+  id: 12
+  name: "3\u7EA7\u9550\u65A7"
+  description: "3\u7EA7\u9550\u65A7\uFF0C\u53EF\u4EE5\u780D\u4F10\u94A2\u6750"
+  maxStack: 1
+  icon: {fileID: 21300000, guid: 9599f8f09af730b4aa98f0e0454bea9e, type: 3}
+  craftRecipe:
+  - item: {fileID: 11400000, guid: f3b934657529cf345b1f35d8b1791237, type: 2}
+    cost: 1
+  - item: {fileID: 11400000, guid: e98ead07e555d654692bfefda3de1621, type: 2}
+    cost: 15
+  craftCount: 1
+  craftSpeed: 1
+  soundID: 3

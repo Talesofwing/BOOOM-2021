@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2ded0eedd7123a44a98b89f3a91da0b, type: 3}
+  m_Name: Scenario_105
+  m_EditorClassIdentifier: 
+  id: 105
+  title: 
+  cg: {fileID: 0}
+  description:
+  - "\u6211\u5C45\u7136\u4F1A\u5236\u4F5C\u70B8\u5F39\uFF1F\u4E3A\u4EC0\u4E48\u6211\u4F1A\u62E5\u6709\u8FD9\u4E9B\u77E5\u8BC6\uFF0C\u5934\u75DB\u2014\u2014"
+  - "\u5BF9\u4E86\uFF0C\u6211\u662F<color=#ff4b4b>\u6CF0\u6717\u56FD\u6D3E\u53BB\u624E\u74E6\u56FD\u7684\u95F4\u8C0D</color>\u3002\u8FD9\u6B21\u53BB\u6CF0\u6717\u56FD\u8FDB\u884C\u5916\u4EA4\uFF0C\u5176\u5B9E\u662F\u56DE\u53BB\u7ED9\u4E0A\u7EA7\u8FDB\u884C\u6C47\u62A5\uFF0C\u600E\u6599\u98DE\u8239\u7ADF\u7136\u534A\u8DEF\u51FA\u73B0\u6545\u969C.."
+  - "\u65E2\u7136\u80FD\u5236\u4F5C\u51FA\u70B8\u5F39\uFF0C\u90A3\u4E48\u6211\u6709\u4E2A\u9B3C\u70B9\u5B50\u60F3\u53BB\u98DE\u8239\u90A3\u8D4C\u4E00\u8D4C."
+  isOnlyShowOnce: 1
+  nextScenario: {fileID: 0}

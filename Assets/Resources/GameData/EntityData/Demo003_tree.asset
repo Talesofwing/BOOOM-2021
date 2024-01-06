@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e8a0f7b41647594dbb5544d1259ec2a, type: 3}
+  m_Name: Demo003_tree
+  m_EditorClassIdentifier: 
+  id: 3
+  name: "demo\u6A39"
+  icon: {fileID: 21300000, guid: b8339e547060bc048ab6022eb3b8bfdf, type: 3}
+  item: {fileID: 11400000, guid: 7aca441fe13479b47a867f1397e1141b, type: 2}
+  itemCount: 1

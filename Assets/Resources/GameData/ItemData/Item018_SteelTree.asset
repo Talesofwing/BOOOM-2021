@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e09ef04cadc85a429015fcf544302e2, type: 3}
+  m_Name: Item018_SteelTree
+  m_EditorClassIdentifier: 
+  id: 18
+  name: "\u94A2\u6811"
+  description: "\u780D\u4F10\u540E\u83B7\u5F97\u94A2\u94C1"
+  maxStack: 1
+  icon: {fileID: 21300000, guid: 3d643bfaf043f434eb4506256b463119, type: 3}
+  craftRecipe: []
+  craftCount: 1
+  craftSpeed: 1
+  soundID: 3

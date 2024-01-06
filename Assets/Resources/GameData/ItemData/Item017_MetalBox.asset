@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e09ef04cadc85a429015fcf544302e2, type: 3}
+  m_Name: Item017_MetalBox
+  m_EditorClassIdentifier: 
+  id: 17
+  name: "\u91D1\u5C5E\u5757"
+  description: "\u91D1\u5C5E\u5757\uFF0C\u6316\u6398\u540E\u83B7\u5F97\u91D1\u5C5E"
+  maxStack: 1
+  icon: {fileID: 21300000, guid: 265a2d80ab4b4cb4c9745d967275d8aa, type: 3}
+  craftRecipe: []
+  craftCount: 1
+  craftSpeed: 1
+  soundID: 2
